@@ -1,0 +1,38 @@
+{
+  "client": [
+    {
+      "nom": "111",
+      "prenom": "A title",
+      "mail": "aaaaa@gmail.com",
+      "tel": "555558888555",
+      "numper": "55555",
+      "cin": "177771111111",
+      "id": "500",
+      "date": "12/09/2022",
+      "decision":{
+        
+      }
+    },
+    {
+      "matricule": "200",
+      "agence": "155",
+      "prenom": "A title",
+      "mail": "aaagggggggggggga@gmail.com",
+      "tel": "555558888555",
+      "numper": "55555",
+      "cin": "171111111",
+      "date": "12/09/2022"
+    },
+    {
+      "id": "200",
+      "nom": "2222",
+      "prenom": "A title",
+      "mail": "aaagggggggggggga@gmail.com",
+      "tel": "555558888555",
+      "numper": "55555",
+      "cin": "171111111",
+      "date": "12/09/2022"
+    }
+    
+  ]
+}

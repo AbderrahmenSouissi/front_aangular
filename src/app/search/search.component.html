@@ -1,0 +1,45 @@
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+
+
+  <h2>Prise en charge décision</h2>
+ 
+<legend>Recherche Client</legend>
+    <div class="form-container">
+      
+      
+      
+      <div class="col-md" style="margin: 30px;">
+        <div class="form-floating">
+          <input type="text" maxlength="8" class="form-control" id="num" [(ngModel)]="num">
+          <label for="floatingInputGrid">Numéro</label>
+        </div>
+      </div>
+
+
+
+      <div class="col-md" style="margin: 30px;" >
+        <div class="form-floating">
+          <select class="form-select" id="np_ag" [(ngModel)]="np_ag">
+            <option selected>NP Agricole</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <label for="floatingSelectGrid">Critère de recherche</label>
+        </div>
+      </div>
+
+      <div class="col-md" style="margin: 30px;" >
+        <button type="button" class="btn" routerLink="/decisioncredit">Rechercher</button>
+      </div>
+      
+
+    </div>
+    
+    
+    
+
+
+
+
